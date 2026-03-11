@@ -22,6 +22,7 @@ test("Practice Test 9", async ({ page }) => {
   console.log(await page.title());
   await expect(page).toHaveTitle("Google");
   console.log("Ending Practice Test 9");
+<<<<<<< HEAD
 });
 
 test("Practice Test 10", async ({ page }) => {
@@ -30,4 +31,6 @@ test("Practice Test 10", async ({ page }) => {
   console.log(await page.title());
   await expect(page).toHaveTitle("Google");
   console.log("Ending Practice Test 10");
+=======
+>>>>>>> 52a88bbae335f4e0454528d4499c2ebf4d7a8055
 });
